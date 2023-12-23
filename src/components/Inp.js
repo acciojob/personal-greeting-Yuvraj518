@@ -8,8 +8,8 @@ const Inp=()=>{
     return (<div>
         <div><p>Enter your name:</p></div>
         <div><input type="text"  onChange={callAbc} placeholder="Enter your name"></input></div>
-        <div><p> Hello {para}!</p></div>
+        <div><p>  Hello {para}!</p></div>
     </div>)
-}
+} 
 
 export default Inp;
